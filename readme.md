@@ -23,9 +23,15 @@ pip install -r requirements.txt
 
 2. Update the `shebang` in the player.py file to the python version in your virtual environment.
 
-3. Update the TOKEN and CHAT_ID in the `.env` config file.
+3. Create a `.env` file in the same directory with the following content:
+```
+TOKEN = '<TOKEN>'
+CHAT_ID = <CHAT_ID>
+```
 
-4. Ensure that the playlist path is correct in `player.py` line 22-27.
+4. Update the TOKEN and CHAT_ID in the `.env` config file.
+
+5. Ensure that the playlist path is correct in `player.py` line 22-27.
 
 
 ## Deployment and testing
