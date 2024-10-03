@@ -12,6 +12,8 @@ On the backend, i'm using telegram bot, and i have set it such that the token an
 
 ## Setup
 
+0. Pre-requisite: I'm assuming you already know how to set up a telegram bot, if not, [head here for more information](https://core.telegram.org/bots/tutorial#introduction)
+
 1. Create the environment
 ```bash
 python3 -m venv env
